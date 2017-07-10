@@ -1,0 +1,82 @@
+.channels-wrap > [class*="container"]:last-child::after {
+    content: "Zicron:Blood#2181 ClearVision:Zerthox#TEST";
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    opacity: .3;
+}
+.chat .message-group:not(.compact) .markup:not(:empty), .chat .accessory :-webkit-any(.embed, .embed-wrapper, .attachment-image, .attachment) {background: rgba(32,37,45,.4); position: relative; width: auto; min-width: 5px; min-height: 16px; max-width: 76%; padding: 4px !important; margin-bottom: 4px; border-radius: 4px;}
+.chat .message-group .comment .attachment {margin: 0 0 5px;}
+.chat .message-group {padding:10px 0 5px;}
+.chat .message-group:last-of-type {padding-bottom:15px}
+.chat .accessory :-webkit-any(.embed, .attachment-image, canvas) {max-width: 100%;}
+.chat .comment {display: flex; flex-direction: column; margin-top: -10px;}
+.chat .message-group .mentioned .message-text {background:transparent !important;}
+.chat .message-group .mentioned .message-text:after {border-left: 0; background:transparent;}
+.chat .markup, .chat .accessory {margin-left: 8px;}
+.chat .reactions {margin-top: -2px; margin-bottom: 4px;}
+.chat .message:not(.first) {margin-top: -6px !important}
+.chat .embed-wrapper {margin-top: 0;}
+.chat .embed.embed-inline {margin: 0 0 4px !important;}
+.chat .embed .embed-thumbnail iframe {min-width: 346px; min-height: 260px}
+.chat .markup .inline, .chat .markup .highlight {line-height: 24px;}
+.chat .markup {padding-top: 4px !important;}
+.chat .message-group .comment .edited {display: table; margin-left: 0; margin-top: 2px;}
+.chat .message-group a {color: #46bae8;}
+.chat .edit-container-outer .avatar-large {opacity:0;}
+.chat .message-group .comment .attachment-image a {margin: 0;}
+.chat .message-group .comment .markup:empty {padding:0;min-width: 0px; top:20px;}
+.chat .markup pre {max-width: 99% !important; margin:2px; overflow: hidden;}
+.chat .message-group .comment .markup pre code {word-break: break-all; width: calc(100% - 8px);}
+.chat .message-group .embed {background-color: rgba(32,37,45,.4) !important;}
+.chat .message-text :-webkit-any(.btn-option, .btn-reaction){margin-top: 10px;}
+.chat .message-text div {order: 2;}
+.chat .message-text .markup {order:1;}
+.chat .message .message-text {display: flex; width: auto;}
+.chat .message .image, .chat .embed .embed-thumbnail-gifv video {max-width: 100%; height: auto;}
+.chat .message-group .comment .message.first {margin-top: 10px}
+.chat .message-group:not(.compact) .message.first .markup:before {content:''; display: block; position: absolute; width: 8px; height: 12px; top: 4px; left: -8px; background:linear-gradient(40deg, rgba(32,37,45,0) 0%, rgba(32,37,45,0) 42.99%, rgba(32,37,45,.43) 43%, rgba(32,37,45,.43) 100%);}
+.chat .message-group:not(.compact) .message.mentioned.first .markup:before, .chat .message-group.compact .message.mentioned.first .message-content:before {background:linear-gradient(40deg, rgba(0, 155, 155,0) 0%, rgba(0, 155, 155,0) 42.99%, rgba(0, 155, 155,.45) 43%, rgba(0, 155, 155,.45) 100%);}
+.chat .message-group:not(.compact) .message.mentioned .markup, .message-group.compact .message.mentioned .message-content {background-color:rgba(0, 155, 155,.45) !important; text-shadow: 0 0 3px rgba(0,0,0,.2);}
+.app:not(.theme-light) .chat .message-group:not(.compact) .message.mentioned .markup .mention:not(:hover) {color: #acbeff; background-color: rgba(0, 155, 155,.45) !important;}
+.app:not(.theme-light) .chat .message-group:not(.compact) .message.mentioned .markup .mention:hover {color: #fff;}
+.chat .message-group .comment .markup code.inline, .chat .message-group .comment .markup pre code {background: rgba(20,20,20,.18) !important;}
+.chat .message .mention {border-radius: 2px;}
+.system-message {margin-top: 14px;}
+.system-message .system-message-icon, .system-message .system-message-content {margin-top: -2px;}
+
+/* compact */
+.chat .message-group.compact {margin-left:10px;}
+.chat .message-group.compact .message .message-text{margin-left: -20px;}
+.chat .message-group.compact .message.first .message-content:before {content:''; display: block; position: absolute; width: 8px; height: 12px; top: 4px; left: -8px; background:linear-gradient(40deg, rgba(32,37,45,0) 0%, rgba(32,37,45,0) 42.99%, rgba(32,37,45,.43) 43%, rgba(32,37,45,.43) 100%);}
+.chat .message-group.compact .accessory :-webkit-any(.embed-wrapper, .embed.embed-inline, .attachment-image, .invite-button, .reactions) {margin-left: 12px !important;}
+.chat .message-group.compact .message .message-text .markup {text-indent: 0px; padding-left: 0px; margin-left: 0px; width: 100%; display: flex; margin-left: 12px; margin-top: 0;}
+.chat .message-group.compact .message .message-text .markup .timestamp {color: transparent; margin-right: -116px; margin-left: 46px; margin-top: -7px;}
+.chat .message-group.compact .message .message-text .markup .username-wrapper {width: 106px; display: flex; flex-flow: column; margin-right: 6px; margin-left: 4px; padding: 4px 6px 0; margin-top: -4px; align-items: flex-end;}
+.chat .message-group.compact .message .message-text .markup .bot-tag {order: 3; display: table; margin-top: 4px; margin-right: 4px;}
+.chat .message-group.compact .message .message-text .markup .user-name {order: 1; margin-top: -8px; word-break: break-word; text-align: right;}
+.chat .message-group.compact .message .message-text .markup .renamer-tag {order: 2; margin-left: 0px; margin-right: 4px; margin-top: 4px; display: table;}
+.chat .message-group.compact .message .message-text .markup span:last-of-type {margin-bottom: 4px;}
+.chat .message-group.compact .message .message-text .markup .message-content:not(:empty), .message-group.compact .message-content ~ .CollapsibleEmbeds-processed {background: rgba(32,37,45,.4); position: relative; width: auto; min-width: 5px; min-height: 16px; max-width: 65%; padding: 4px !important; margin-bottom: 4px; border-radius: 4px; display: table; word-break: break-word; margin-top: 8px;}
+.chat .message-group.compact .emoji {vertical-align: baseline;}
+.chat .message-group.compact .system-message {margin-top: 24px;}
+.chat .message-group.compact .comment .attachment {margin-left: 12px}
+.avatar-small[style*='205709291179606016'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='205709291179606016'] + .member-inner .member-username::after,.avatar-popout[style*='205709291179606016']::after,.avatar-profile[style*='205709291179606016']::after,.message-group .avatar-large[style*='205709291179606016'] + .comment .user-name::after{content:"Zicron Dev"}.avatar-profile[style*='205709291179606016']::after{content:"ClearVision Zicron DEV"}
+.avatar-small[style*='205709291179606016'] + .member-inner .member-username{position:relative}.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,.message-group .avatar-large[style*='/a_'] + .comment .user-name::after,.avatar-small[style*='205709291179606016'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='205709291179606016'] + .member-inner .member-username::after,.avatar-popout[style*='205709291179606016']::after,.avatar-profile[style*='205709291179606016']::after,.message-group .avatar-large[style*='205709291179606016'] + .comment .user-name::after{position:absolute;height:14px;padding:1px 2px;border-radius:3px;background:rgba(0,0,0,0.5);color:hsla(0,0%,100%,0.8);font-size:10px;text-align:center;font-weight:700;line-height:16px;text-shadow:0 0 1px rgba(0,0,0,.3);text-transform:uppercase;vertical-align:bottom}.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,.message-group .avatar-large[style*='/a_'] + .comment .user-name::after,.avatar-small[style*='205709291179606016'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='205709291179606016'] + .member-inner .member-username::after,.message-group .avatar-large[style*='205709291179606016'] + .comment .user-name::after{position:relative;background:rgba(100,100,100,0.3);color:hsla(0,0%,100%,0.6);margin-left:6px}.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,.avatar-small[style*='205709291179606016'] + .member-inner .member-username-inner::after{top:-1px;font-size:11px}.avatar-popout[style*='205709291179606016']::after{padding:3px;font-size:15px;top:5%;right:-15%;z-index:2;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}.avatar-popout[style*='205709291179606016']:hover::after{color:#fff;font-size:20px;padding:5px 4px;top:2.5%;right:-25%}.avatar-profile[style*='205709291179606016']::after
+.status-picker .popout-menu-item .helper {
+    display: none;
+}
+
+/* bigger */
+.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty), :-webkit-any(.theme-light, .theme-dark) .chat .accessory :-webkit-any(.embed, .embed-wrapper, .attachment-image) { padding: 14px !important; border-radius: 8px;}
+.chat .message-group:not(.compact) .message.first .markup, .chat .message-group.compact .message.first .message-text .markup .message-content:not(:empty) {border-top-left-radius: 8px 3px}
+.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty) {padding-top: 16px !important;}
+.chat .message .attachment-image {margin-top: 6px;}
+.chat .message-group:not(.compact) .comment .markup:empty {top:28px;}
+.chat .embed-color-pill ~ .embed {border-radius: 0 4px !important;}
+.chat .message-group .comment {margin: -12px 0 -4px;}
