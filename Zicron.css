@@ -1,11 +1,11 @@
 .channels-wrap > [class*="container"]:last-child::after {
-    content: "Zicron:Blood#2181 ClearVision:Zerthox#TEST";
+    content: "Zicron:Blood#2181 CV:Zerthox#1999";
     color: #fff;
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 13px;
+    font-weight: 600;
     text-align: center;
     position: absolute;
-    bottom: -8px;
+    bottom1 -8px;
     left: 0;
     right: 0;
     opacity: .3;
