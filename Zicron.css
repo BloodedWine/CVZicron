@@ -64,15 +64,15 @@
 .avatar-small[style*='97797564866236416'] + .member-inner .member-username{position:relative}.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,.message-group .avatar-large[style*='/a_'] + .comment .user-name::after,.avatar-small[style*='97797564866236416'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='97797564866236416'] + .member-inner .member-username::after,.avatar-popout[style*='97797564866236416']::after,.avatar-profile[style*='97797564866236416']::after,.message-group .avatar-large[style*='97797564866236416'] + .comment .user-name::after{position:absolute;height:14px;padding:1px 2px;border-radius:3px;background:rgba(0,0,0,0.5);color:hsla(0,0%,100%,0.8);font-size:10px;text-align:center;font-weight:700;line-height:16px;text-shadow:0 0 1px rgba(0,0,0,.3);text-transform:uppercase;vertical-align:bottom}.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='/a_'] + .member-inner .member-username::after,.message-group .avatar-large[style*='/a_'] + .comment .user-name::after,.avatar-small[style*='97797564866236416'] + .member-inner .member-username-inner::after,.guild-settings-modal-members .avatar-small[style*='97797564866236416'] + .member-inner .member-username::after,.message-group .avatar-large[style*='97797564866236416'] + .comment .user-name::after{position:relative;background:rgba(100,100,100,0.3);color:hsla(0,0%,100%,0.6);margin-left:6px}.avatar-small[style*='/a_'] + .member-inner .member-username-inner::after,.avatar-small[style*='97797564866236416'] + .member-inner .member-username-inner::after{top:-1px;font-size:11px}.avatar-popout[style*='97797564866236416']::after{padding:3px;font-size:15px;top:5%;right:-15%;z-index:2;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}.avatar-popout[style*='97797564866236416']:hover::after{color:#fff;font-size:20px;padding:5px 4px;top:2.5%;right:-25%}.avatar-profile[style*='97797564866236416']::after
 }
 
-/* bigger 
+/* bigger */
 .chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty), :-webkit-any(.theme-light, .theme-dark) .chat .accessory :-webkit-any(.embed, .embed-wrapper, .attachment-image) { padding: 14px !important; border-radius: 8px;}
 .chat .message-group:not(.compact) .message.first .markup, .chat .message-group.compact .message.first .message-text .markup .message-content:not(:empty) {border-top-left-radius: 8px 3px}
-.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty) {padding-top: 16px !important;}
+.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty) {padding-top: 12px !important;}
 .chat .message .attachment-image {margin-top: 6px;}
 .chat .message-group:not(.compact) .comment .markup:empty {top:28px;}
 .chat .embed-color-pill ~ .embed {border-radius: 0 4px !important;}
 .chat .message-group .comment {margin: -12px 0 -4px;}
-*/
+
 
 /* Other */
 .status-picker .popout-menu-item .helper {display: none;}
