@@ -65,9 +65,9 @@
 }
 
 /* bigger */
-.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty), :-webkit-any(.theme-light, .theme-dark) .chat .accessory :-webkit-any(.embed, .embed-wrapper, .attachment-image) { padding: 14px !important; border-radius: 8px;}
+.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty), :-webkit-any(.theme-light, .theme-dark) .chat .accessory :-webkit-any(.embed, .embed-wrapper, .attachment-image) { padding: 12px !important; border-radius: 8px;}
 .chat .message-group:not(.compact) .message.first .markup, .chat .message-group.compact .message.first .message-text .markup .message-content:not(:empty) {border-top-left-radius: 8px 3px}
-.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty) {padding-top: 12px !important;}
+.chat .message-group:not(.compact) .message .markup, .chat .message-group.compact .message .message-text .markup .message-content:not(:empty) {padding-top: 14px !important;}
 .chat .message .attachment-image {margin-top: 6px;}
 .chat .message-group:not(.compact) .comment .markup:empty {top:28px;}
 .chat .embed-color-pill ~ .embed {border-radius: 0 4px !important;}
